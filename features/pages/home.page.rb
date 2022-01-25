@@ -1,12 +1,12 @@
 class HomePage < SitePrism::Page
 
     
-    element :table, :id, "register"
+    element :table,  ".table-title"
     
 
     def checkCadastroSuccessful
         
-        expect(table.text).to eql "Cadastrar"
+        expect(table.text).to eql "Usuários cadastrados"
         
     end    
     

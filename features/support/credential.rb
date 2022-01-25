@@ -4,6 +4,6 @@ CREDENTIAL = {
     user:{
         name: 'Guto Gomes',
         email: 'guto@jmail.com',
-        senha: 'kiojuhd554568'
+        password: 'kiojuhd554568'
     }
 }
